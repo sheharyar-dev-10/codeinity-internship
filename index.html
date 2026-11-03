@@ -1,14 +1,57 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=10">
 
-  <title>Document</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title> My Profile </title>
+
+  <style>
+    h1 {
+      background-color: rgb(43, 43, 9);
+      color: rgb(168, 84, 84);
+      text-align: center;
+      font-size: 50px;
+      font-family: Arial, sans-serif;
+      padding: 20px;
+    }
+
+    .university-link {
+      display: block;
+      width: fit-content;
+      margin: 0 auto;
+      border: 1px solid #741717;
+      padding: 10px;
+    }
+
+    .university-image {
+      display: block;
+      margin: 0 auto;
+      width: 50%;
+      height: auto;
+      border: 2px solid #741717;
+    }
+  </style>
 </head>
 <body>
-  <h1>My Website</h1>
-  <h2>Welcome to My Website</h2>
+  <h1>Oxford University</h1>
+
+  <form>  
+    <label for="name"> Name </label>
+    <input type="text" id="name" name="name" placeholder="Enter your name"><br><br>
+    <label for="email"> Email </label><br>
+    <input type="email" id="email" name="email" placeholder="@gmail.com "><br><br>
+    <label for="password"> Password </label><br>
+    <input type="password" id="password" name="password" placeholder="Enter your password"><br><br>
+  </form>
+
+ <a href="https://share.google/duXrRdEflF6HFmFz9"
+   target="_blank"
+   class="university-link">
+    Visit Oxford University
+</a>
+<br><br>
+   <img src="image.jpg" alt="Oxford University" style = "height: 400px; width: 100%;">
 
 </body>
 </html>
